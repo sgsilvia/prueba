@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+
+.caja {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 2px solid red;
+}
+
+.box2 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+}

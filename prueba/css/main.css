@@ -1,0 +1,51 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  --color-texto: #cc212a;
+  background-color: white;
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: var(--color-texto);
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  border-top: #cc212a solid 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.footer .ball {
+  display: flex;
+  background-color: var(--color-texto);
+}
+
+.boll {
+  text-transform: capitalize;
+  background-color: #cc212a;
+  color: white;
+  height: 80;
+  border-radius: 30%;
+  text-align: center;
+  align-items: center;
+  line-height: 50px;
+}
